@@ -5,7 +5,7 @@ from dianying.items import DianyingItem
 
 class dianyingSpider(CrawlSpider):
     name = "dianying"
-    download_delay = 2
+    download_delay = 1
     allowed_domains = ["dianying.fm"]
     start_urls = [
         "http://www.dianying.fm/collection",
